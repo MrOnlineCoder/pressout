@@ -6,7 +6,7 @@
     <div class="danger">
 <br>
         <blockquote style="{{ vm.getStyle() }}">
-                <strong>Ошибок: {{ vm.error }}</strong>
+                <strong>Errors: {{ vm.error }}</strong>
             </blockquote>
     </div>
    </div>
@@ -15,16 +15,16 @@
     <h1>You finished this round!</h1>
     <p>Round stats:</p>
     <blockquote style="background-color: orangered; text-align: center">
-        Ошибок: {{ vm.error }}
+        Errors: {{ vm.error }}
     </blockquote>
     <blockquote style="background-color: green; text-align: center">
-        Верных нажатий: {{ vm.correct }}
+       Correct: {{ vm.correct }}
     </blockquote>
     <blockquote style="background-color: green; text-align: center">
-        Процент верных нажатий: {{ (vm.correct * 100)/(vm.correct+vm.error) }}
+        Correct percent: {{ (vm.correct * 100)/(vm.correct+vm.error) }}
     </blockquote>
     <blockquote style="background-color: #f0ad4e; text-align: center">
-        Время: {{ vm.time }} секунд
+       Time: {{ vm.time }} seconds
     </blockquote>
     <a href="#welcome"><button class="btn btn-info">Back to main page</button></a>
 </div>
