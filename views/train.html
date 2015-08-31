@@ -1,0 +1,30 @@
+<center><div><h1 ng-Bind="vm.text"></h1></div></center>
+<br>
+<hr>
+    <div class="form-group form-horizontal" ng-hide="vm.finished">
+    <input ng-model="vm.userInput" class="form-control center-block" ng-change="vm.updateText()">
+    <div class="danger">
+<br>
+        <blockquote style="{{ vm.getStyle() }}">
+                <strong>Ошибок: {{ vm.error }}</strong>
+            </blockquote>
+    </div>
+   </div>
+
+<div ng-show="vm.finished">
+    <h1>You finished this round!</h1>
+    <p>Round stats:</p>
+    <blockquote style="background-color: orangered; text-align: center">
+        Ошибок: {{ vm.error }}
+    </blockquote>
+    <blockquote style="background-color: green; text-align: center">
+        Верных нажатий: {{ vm.correct }}
+    </blockquote>
+    <blockquote style="background-color: green; text-align: center">
+        Процент верных нажатий: {{ (vm.correct * 100)/(vm.correct+vm.error) }}
+    </blockquote>
+    <blockquote style="background-color: #f0ad4e; text-align: center">
+        Время: {{ vm.time }} секунд
+    </blockquote>
+    <a href="#welcome"><button class="btn btn-info">Back to main page</button></a>
+</div>
