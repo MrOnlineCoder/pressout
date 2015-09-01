@@ -1,2 +1,14 @@
 <h1>Multiplayer</h1>
 <h2>{{ vm.connectStatus }}</h2>
+<hr>
+<div class="panel">
+    <div class="form-group-lg" ng-hide="vm.finding">
+        <input placeholder="Enter your nickname" class="form-control" ng-model="vm.nickname" required><br>
+        <button class="btn btn-lg btn-info form-control" ng-click="vm.findGame()">FIND OPPONENT</button>
+    </div>
+    <div ng-show="vm.finding">
+            <img src="../images/loader.gif" width="28" height="28"> <span style="font-size:14pt; font-weight:300">Finding game</span>
+    </div>
+
+</div>
+
