@@ -16,6 +16,16 @@ body {
     padding: 0 15px;
 }
 
+.circle {
+    width:150px;
+    height:150px;
+    border-radius:75px;
+    border: 10px solid black;
+    line-height: 125px;
+    font-size:50px;
+    text-align:center;
+}
+
 @media(min-width:768px) {
     body {
         padding-top: 100px; /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
@@ -25,3 +35,4 @@ body {
         padding: 15px 0;
     }
 }
+

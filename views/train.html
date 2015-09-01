@@ -1,11 +1,23 @@
+<!---COUNTDOWN
+<center><div ng-hide="vm.started">
+<h1>Game starts in:</h1>
+    <div class="circle">
+            {{ vm.cooldown }}
+    </div>
+
+</div></center>-->
+
+
+
+<!--- THE GAME-->
 <center><div><h1 ng-Bind="vm.text"></h1></div></center>
 <br>
 <hr>
     <div class="form-group form-horizontal" ng-hide="vm.finished">
-    <input ng-model="vm.userInput" class="form-control center-block" ng-change="vm.updateText()">
+    <input ng-model="vm.userInput" class="form-control center-block" ng-change="vm.updateText()" ng-Focus="vm.startGame()">
     <div class="danger">
 <br>
-        <blockquote style="{{ vm.getStyle() }}">
+        <blockquote style="{{ vm.getStyle() }}" ng-hide="!vm.started">
                 <strong>Errors: {{ vm.error }}</strong>
             </blockquote>
     </div>
@@ -27,4 +39,6 @@
        Time: {{ vm.time }} seconds
     </blockquote>
     <a href="#welcome"><button class="btn btn-info">Back to main page</button></a>
+    <a href="#setupTrain" style="float:right"><button class="btn btn-info">Play again</button></a>
+
 </div>

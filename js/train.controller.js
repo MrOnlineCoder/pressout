@@ -12,7 +12,7 @@
     function TrainController($routeParams, $timeout) {
         var vm = this;
         vm.letters = ["a","b","c","d","h"];
-        vm.text = "thetext";
+        vm.text = "Click the textbox when you are ready";
         vm.theStyle = "background-color:  orangered; text-align: center";
         vm.correct = 0;
         vm.finished = false;
@@ -20,7 +20,11 @@
         vm.settings = $routeParams;
         vm.diff = 0;
         vm.countTime = false;
+        vm.cooldown = 5;
         vm.time = 0;
+        vm.started = false;
+
+
 
 
 
@@ -97,11 +101,41 @@
             vm.countTime = true;
         }
 
-        if (vm.countTime) {
-            vm.updateTime();
-        }
 
 
-        vm.generateText(vm.diff);
+
+
+        /*vm.countdown = function() {
+
+            if (vm.cooldown == 0) {
+                vm.started = true;
+                if (vm.countTime) {
+                    vm.updateTime();
+                }
+                vm.generateText(vm.diff);
+            }
+
+
+            if (!vm.started) {
+                vm.cooldown--;
+            } else {
+                return;
+            }
+
+            $timeout(vm.countdown, 1000);
+        };*/
+
+      vm.startGame = function() {
+          if (vm.started) {
+              return;
+          }
+
+          vm.started = true;
+          if (vm.countTime) {
+              vm.updateTime();
+          }
+          vm.generateText(vm.diff);
+      }
+
     }
 })();
