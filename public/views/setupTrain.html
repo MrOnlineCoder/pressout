@@ -1,0 +1,9 @@
+<h1>Setup Training mode</h1>
+<p>Do some settings, before entering training mode</p>
+<!--<div class="checkbox">
+    <label><input type="checkbox" value="" ng-model="theTime" checked>Count time</label>
+</div>-->
+<div class="checkbox">
+    <label>Difficulty: <input type="number" value="" ng-model="difficulty" min="10" max="50" checked></label>
+</div><br>
+<a ng-href="#train?time=true&difficulty={{ difficulty }}"><button class="btn btn-info btn-lg">Play!</button></a>
