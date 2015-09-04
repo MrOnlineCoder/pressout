@@ -47,7 +47,6 @@
 
         vm.updateText = function() {
             var user = vm.userInput;
-            console.log("s");
             if (user.toLowerCase() == vm.text[0].toLowerCase()) {
                 vm.correct++;
             } else {

@@ -2,62 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21e2a71f-be07-4777-9f56-593ebbf15feb" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\Contributors.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\README.md" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\bower.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\css\main.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\fonts\FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\fonts\fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\fonts\fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\fonts\fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\fonts\fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\img\banner.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\img\dialogs.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\img\treehouse.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\img\webdev.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\js\lib\sh\shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\js\lib\sh\shCore.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\js\lib\sh\shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\assets\js\lib\sh\shCoreDefault.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\example\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\lib\alertify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\lib\alertify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\package.json" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\src\alertify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\qunit\qunit.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\qunit\qunit.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\specs\alert.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\specs\confirm.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\specs\global.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\specs\log.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\test\specs\prompt.test.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\themes\alertify.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\themes\alertify.core.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\alertify.js-0.3.11\themes\alertify.default.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\css\logo-nav.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
       <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\index.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\bootbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\main.module.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\main.routes.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\js\train.controller.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\views\setupTrain.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\views\train.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\views\welcome.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\node_modules\express\node_modules\serve-static\HISTORY.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\node_modules\express\node_modules\serve-static\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\node_modules\express\node_modules\serve-static\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\node_modules\express\node_modules\serve-static\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Documents and Settings\Администратор\WebstormProjects\PressOutReal\node_modules\express\node_modules\serve-static\package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PressOutReal.iml" afterPath="$PROJECT_DIR$/.idea/PressOutReal.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/views/findGame.html" afterPath="$PROJECT_DIR$/public/views/findGame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/findgame.controller.js" afterPath="$PROJECT_DIR$/public/js/findgame.controller.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/main.routes.js" afterPath="$PROJECT_DIR$/public/js/main.routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/express-favicon/package.json" afterPath="$PROJECT_DIR$/node_modules/express-favicon/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/train.controller.js" afterPath="$PROJECT_DIR$/public/js/train.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PressOutReal.iws" />
@@ -83,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+              <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
               <folding>
                 <element signature="e#0#48#0" expanded="false" />
               </folding>
@@ -94,8 +53,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="13.730769">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-11.230769">
+              <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -104,9 +63,12 @@
       <file leaf-file-name="findGame.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/views/findGame.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-16.346153">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#strong#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +76,50 @@
       <file leaf-file-name="findgame.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/js/findgame.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63780665">
-              <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.77203065">
+              <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiplayer.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/views/multiplayer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="multiplayer.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/multiplayer.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#48#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.routes.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/js/main.routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo-nav.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/logo-nav.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -126,8 +130,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="package_json" />
         <option value="Html5" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -149,8 +154,16 @@
         <option value="$PROJECT_DIR$/js/findgame.controller.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/views/tryConnect.html" />
-        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public/js/train.controller.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/public/views/findGame.html" />
+        <option value="$PROJECT_DIR$/public/js/main.routes.js" />
         <option value="$PROJECT_DIR$/public/js/findgame.controller.js" />
+        <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/public/views/multiplayer.html" />
+        <option value="$PROJECT_DIR$/public/js/multiplayer.controller.js" />
       </list>
     </option>
   </component>
@@ -190,7 +203,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,8 +272,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PressOutReal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PressOutReal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,7 +357,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1448" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -335,7 +366,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23994452" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23928078" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -382,18 +413,73 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/views/tryConnect.html">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
+          <caret line="86" column="13" selection-start-line="86" selection-start-column="13" selection-end-line="86" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="13.730769">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/findGame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="61" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/findgame.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/multiplayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/multiplayer.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/logo-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -401,14 +487,28 @@
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/findGame.html">
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -416,10 +516,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/findGame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="72" selection-start-line="13" selection-start-column="72" selection-end-line="13" selection-end-column="72" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/findgame.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63780665">
-          <caret line="26" column="82" selection-start-line="26" selection-start-column="82" selection-end-line="26" selection-end-column="82" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="43" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/tryConnect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/logo-nav.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/train.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3122606">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/train.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6794355">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/setupTrain.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.230769">
+          <caret line="77" column="45" selection-start-line="77" selection-start-column="45" selection-end-line="77" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/findGame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#strong#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/views/multiplayer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/multiplayer.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#48#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/findgame.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77203065">
+          <caret line="76" column="37" selection-start-line="76" selection-start-column="37" selection-end-line="76" selection-end-column="37" />
           <folding />
         </state>
       </provider>

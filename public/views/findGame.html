@@ -2,13 +2,40 @@
 <h2>{{ vm.connectStatus }}</h2>
 <hr>
 <div class="panel">
-    <div class="form-group-lg" ng-hide="vm.finding">
-        <input placeholder="Enter your nickname" class="form-control" ng-model="vm.nickname" required><br>
-        <button class="btn btn-lg btn-info form-control" ng-click="vm.findGame()">FIND OPPONENT</button>
+    <div class="form-group-lg" ng-hide="vm.issetup">
+        <input placeholder="Enter your nickname" class="form-control" ng-model="vm.nickname" maxlength=20 required><br>
+        <button class="btn btn-lg btn-info form-control" ng-click="vm.setupGame()">Find opponent</button>
     </div>
-    <div ng-show="vm.finding">
-            <img src="../images/loader.gif" width="28" height="28"> <span style="font-size:14pt; font-weight:300">Finding game</span>
+    <div ng-show="vm.issetup && !vm.iswaiting">
+        <table class="table table-hover" >
+
+            <thead>
+            <th>Player nick</th>
+            <th>Play</th>
+            </thead>
+            <tbody>
+            <tr ng-repeat="q in vm.lobbies track by $index">
+                <td ng-bind="q"></td>
+                <td>
+                    <button class="btn btn-success" ng-click="vm.joinLobby($index)">
+                        <img src="../images/join.png"/>
+                    </button>
+                </td>
+            </tr>
+            </tbody>
+
+        </table>
+        <br>
+        <button class="btn btn-info" ng-click="vm.createLobby();">Create lobby</button>
+        <button class="btn btn-info" ng-click="vm.refreshList();">Refresh</button>
     </div>
+
+    <div ng-show="vm.iswaiting">
+        <img src="../images/loader.gif" width="28" height="28"><strong style="padding-left: 10px">Waiting for opponent</strong>
+        <br>
+        <button class="btn btn-danger" ng-click="vm.cancelLobby()" style="margin-top: 10px; margin-bottom: 10px">Cancel</button>
+    </div>
+
 
 </div>
 

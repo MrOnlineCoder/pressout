@@ -37,6 +37,11 @@
                 controller: 'MakeClosedController',
                 controllerAs: 'vm'
             })
+            .when('/multiplayer', {
+                templateUrl: 'views/multiplayer.html',
+                controller: 'MultiplayerController',
+                controllerAs: 'vm'
+            })
             .otherwise({
                 redirectTo: '/welcome'
             });
