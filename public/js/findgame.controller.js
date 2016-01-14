@@ -9,7 +9,7 @@
             .controller("FindGameController", FindGameController);
 
 
-        function FindGameController($timeout) {
+        function FindGameController($timeout, $scope) {
             var vm = this;
             var socket;
             if (navigator.userAgent.toLowerCase().indexOf('chrome') != -1) {
@@ -29,6 +29,7 @@
             socket.on("connect",function() {
                 socket.on("lobbyed", function(data) {
                     vm.lobbies = data;
+                    $scope.$apply();
                 });
 
                 socket.on("created lobby", function(data) {
@@ -36,8 +37,12 @@
                 });
 
                 socket.on("joined", function(data) {
-                    vm.statusText = "Opponent connected. Redirecting to game server...";
-                    location.href="#multiplayer?pl1="+data.pl1+"&pl2="+data.pl2;
+                    if (vm.nickname == data.pl1 || vm.nickname == data.pl2) {
+                        vm.statusText = "Opponent connected. Redirecting to game server...";
+                        socket.disconnect();
+                        location.href="#multiplayer?pl1="+data.pl1+"&pl2="+data.pl2;
+                    }
+
                 });
             });
 

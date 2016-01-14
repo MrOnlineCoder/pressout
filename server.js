@@ -33,6 +33,8 @@ function Game(pl1, pl2) {
     this.pl1 = pl1;
     this.pl2 = pl2;
     this.id = currentID;
+    this.time = 10;
+    currentID++;
 }
 
 
@@ -98,6 +100,33 @@ io.on('connection', function(socket) {
         io.sockets.emit("joined", {pl1: data.lobbyer, pl2: data.nick});
     });
 
+    socket.on("get time", function(data) {
+        console.log("Time requested from: "+data.lobby);
+        var temp;
+        for (var i=0;i<games.length;i++)
+        {
+            if (games[i].pl1==data.lobby || games[i].pl2==data.lobby) {
+                temp = games[i];
+                console.log("Time found: "+games[i].time);
+            }
+        }
+        console.log("Time result: "+temp.time);
+        socket.emit("timed", {lob: data.lobby, time: temp.time});
+    });
+
 
 
 });
+
+function countdown() {
+    for (var i=0; i<games.length;i++) {
+        if (games[i].time > 0) {
+            games[i].time = games[i].time - 1;
+        }
+    }
+
+    setTimeout(countdown, 1000);
+}
+
+
+countdown();
